@@ -10,6 +10,7 @@ import InsertEmoticonIcon from '@mui/icons-material/InsertEmoticon';
 //import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
 import { MouseEvent } from "react";
 import { cvLink } from "@/config/utils";
+import Image from "next/image";
 
 ///Commencing the code 
 
@@ -32,9 +33,11 @@ const Hero = () => {
         <div className={`${styles.main}`}>
             <div className={styles.image}>
                 <div className={styles.imageFrame}>
-                    <img
+                    <Image
                         src="https://drive.google.com/uc?export=download&id=1m394hmoLMu4vjOQCtjxV01Jv_0ZWrwDh"
                         alt=""
+                        width={1346px}
+                        height={1320px}
                     />
                 </div>
             </div>
