@@ -34,6 +34,7 @@ const Hero = () => {
             <div className={styles.image}>
                 <div className={styles.imageFrame}>
                     <Image
+                        className={styles.img}
                         src="https://drive.google.com/uc?export=download&id=1m394hmoLMu4vjOQCtjxV01Jv_0ZWrwDh"
                         alt=""
                         width={1346px}
