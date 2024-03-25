@@ -37,8 +37,8 @@ const Hero = () => {
                         className={styles.img}
                         src="https://drive.google.com/uc?export=download&id=1m394hmoLMu4vjOQCtjxV01Jv_0ZWrwDh"
                         alt=""
-                        width={1346px}
-                        height={1320px}
+                        width="1346px"
+                        height="1320px"
                     />
                 </div>
             </div>
