@@ -88,7 +88,7 @@
                 @include size(160px, 160px);
             }
 
-            img {
+            .img {
                 position: relative;
                 object-fit: cover;
                 @include size(100%, 100%);
